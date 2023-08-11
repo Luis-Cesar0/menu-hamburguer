@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    #bumenu{
+        display: none;
+    }
+
+    #primmenu{
+        display: block;
+    }
+    .opmenu{
+       display: inline-block;
+    }
+    .opmenu:hover{
+        background-color: rgba(131, 82, 18, 0.692);
+        border: 3px solid rgba(0, 0, 0, 0.808);
+    }
+
+    main{
+        width: 768px;
+    }
+
+}
